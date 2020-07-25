@@ -189,7 +189,7 @@ flair.names = {
 "nightcrawler tierlist nightcrawler" : "Nightcrawler [X-Force] #Speed# ",
 "samalexander tierlist samalexander" : "Sam Alexander [] #Universal# ",
 "odin-t2 tierlist odin-t2" : "Odin [All-Father] #Universal# #PVP4##PVP4##Leader# ",
-"odin-t3 tierlist odin-t3" : "Odin [All-Father] #Universal# #PVE5##PVP5##Leader# ",
+"odin-t3 tierlist odin-t3" : "Odin [All-Father] #Universal# #PVE5##PVP4##Leader# ",
 "philcoulson tierlist philcoulson" : "Phil Coulson [A.O.S Season 3] #Blast# #Support# ",
 "proximamidnight tierlist proximamidnight" : "Proxima Midnight [Infinity War] #Universal# #Leader# ",
 "psylocke tierlist psylocke" : "Psylocke [Disassembled] #Blast# #PVE4##PVP1#",
