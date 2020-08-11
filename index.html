@@ -8,7 +8,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Marvel Future Fight Hero Attributes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#151321">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transculent">
     <link href="https://futurefightflair.github.io/images/icons/apple-touch-icon-120x120.png" sizes="120x120" rel="apple-touch-icon">
 <meta property="og:title" content="Marvel Future Fight Hero Attributes" />
 <meta property="og:type" content="website" />
@@ -513,4 +513,21 @@ function checkfunction() {
     filterSelection5('all');
   }
 }
+</script>
+
+<script>
+
+var eventHandler = function (event) {
+    // Only run for iOS full screen apps
+    if (('standalone' in window.navigator) && window.navigator.standalone) {
+        // Only run if link is an anchor and points to the current page
+        if ( event.target.tagName.toLowerCase() !== 'a' || event.target.hostname !== window.location.hostname || event.target.pathname !== window.location.pathname || !/#/.test(event.target.href) ) return;
+
+        // Open link in same tab
+        event.preventDefault();
+        window.location = event.target.href;
+    }
+}
+window.addEventListener('click', eventHandler, false);
+
 </script>
