@@ -8,6 +8,7 @@
 .flair-bolt{background-position:0 -30px}
 .flair-bolt1{background-position:-30px -30px}
 .flair-bolt2{background-position:-60px -30px}
+.flair-bolt3{background-position:-90px -30px}
 .flair-cat{background-position:0 -60px}
 .flair-cat1{background-position:-30px -60px}
 .flair-cat2{background-position:-60px -60px}
@@ -237,6 +238,7 @@
 .flair-carnage{background-position:0 -2010px}
 .flair-kamala{background-position:0 -2040px}
 .flair-kamala1{background-position:-30px -2040px}
+.flair-kamala2{background-position:-60px -2040px}
 .flair-jane{background-position:0 -2070px}
 .flair-corvus{background-position:0 -2100px}
 .flair-corvus1{background-position:-30px -2100px}
@@ -296,11 +298,13 @@
 .flair-hela{background-position:0 -3060px}
 .flair-hela1{background-position:-30px -3060px}
 .flair-enchantress{background-position:0 -3090px}
+.flair-enchantress{background-position:-30px -3090px}
 .flair-ulik{background-position:0 -3120px}
 .flair-kate{background-position:0 -3150px}
 .flair-ironheart{background-position:0 -3180px}
 .flair-medusa{background-position:0 -3210px}
 .flair-medusa1{background-position:-30px -3210px}
+.flair-medusa2{background-position:-60px -3210px}
 .flair-moongirl{background-position:0 -3240px}
 .flair-moongirl1{background-position:-30px -3240px}
 .flair-karnak{background-position:0 -3270px}
@@ -366,6 +370,7 @@
 .flair-cable{background-position:0 -4140px}
 .flair-cable1{background-position:-30px -4140px}
 .flair-cable2{background-position:-60px -4140px}
+.flair-cable2{background-position:-90px -4140px}
 .flair-apocalypse{background-position:0 -4200px}
 .flair-apocalypse1{background-position:-30px -4200px}
 .flair-heimdall{background-position:0 -4230px}
@@ -456,6 +461,7 @@
 .flair-bishop{background-position:0 -6360px}
 .flair-jubilee{background-position:0 -6390px}
 .flair-iceman{background-position:0 -6420px}
+.flair-iceman1{background-position:-30px -6420px}
 .flair-moltenman{background-position:0 -6450px}
 .flair-hydroman{background-position:0 -6480px}
 .flair-electro{background-position:0 -6510px}
@@ -496,6 +502,8 @@
 .flair-richardrider{background-position: 0 -7380px}
 .flair-abomination{background-position: 0 -7410px}
 .flair-redshulk{background-position: 0 -7440px}
+.flair-thane{background-position: -30px -7440px}
+.flair-dazzler{background-position: -30px -7440px}
 
 
 
@@ -592,6 +600,7 @@
 .flair1-bolt {background-position:-1400px 0px}
 .flair1-bolt1 {background-position:-1400px -100px}
 .flair1-bolt2 {background-position:-1400px -200px}
+.flair1-bolt2 {background-position:-1400px -300px}
 .flair1-cat {background-position:-1500px 0px}
 .flair1-cat1 {background-position:-1500px -100px}
 .flair1-cat2 {background-position:-1500px -200px}
@@ -618,6 +627,7 @@
 .flair1-cable {background-position:-2200px 0px}
 .flair1-cable1 {background-position:-2200px -100px}
 .flair1-cable2 {background-position:-2200px -200px}
+.flair1-cable3{background-position:-2200px -200px}
 .flair1-cap {background-position:-2300px 0px}
 .flair1-cap1 {background-position:-2300px -100px}
 .flair1-cap2 {background-position:-2300px -200px}
@@ -690,6 +700,7 @@
 .flair1-emma1 {background-position:-4700px -100px}
 .flair1-emma2 {background-position:-4700px -200px}
 .flair1-enchantress {background-position:-4800px 0px}
+.flair1-enchantress1 {background-position:-4800px -100px}
 .flair1-falcon {background-position:-4900px 0px}
 .flair1-falcon1 {background-position:-4900px -100px}
 .flair1-falcon2 {background-position:-4900px -200px}
@@ -775,6 +786,7 @@
 .flair1-kaecilius {background-position:-8500px 0px}
 .flair1-kamala {background-position:-8600px 0px}
 .flair1-kamala1 {background-position:-8600px -100px}
+.flair1-kamala2 {background-position:-8600px -200px}
 .flair1-karnak {background-position:-8700px 0px}
 .flair1-karnak1 {background-position:-8700px -100px}
 .flair1-kate {background-position:-8800px 0px}
@@ -810,6 +822,7 @@
 .flair1-maximus {background-position:-10300px 0px}
 .flair1-medusa {background-position:-10400px 0px}
 .flair1-medusa1 {background-position:-10400px -100px}
+.flair1-medusa2 {background-position:-10400px -100px}
 .flair1-melindamay {background-position:-5300px -100px}
 .flair1-miles {background-position:-10500px 0px}
 .flair1-miles1 {background-position:-10500px -100px}
@@ -1013,6 +1026,7 @@
 .flair1-rescue {background-position:-18900px 0px}
 .flair1-bishop {background-position:-19000px 0px}
 .flair1-iceman {background-position:-19100px 0px}
+.flair1-iceman1 {background-position:-19100px 0px}
 .flair1-jubilee {background-position:-19200px 0px}
 .flair1-moltenman {background-position:-19300px 0px}
 .flair1-hydroman {background-position:-19400px 0px}
@@ -1054,4 +1068,6 @@
 .flair1-richardrider{background-position: -22400px 0px}
 .flair1-abomination{background-position: -22500px 0px}
 .flair1-redshulk{background-position: -22600px 0px}
+.flair1-thane{background-position: -22700px 0px}
+.flair1-dazzler{background-position: -22800px 0px}
 
