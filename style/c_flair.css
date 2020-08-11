@@ -298,7 +298,7 @@
 .flair-hela{background-position:0 -3060px}
 .flair-hela1{background-position:-30px -3060px}
 .flair-enchantress{background-position:0 -3090px}
-.flair-enchantress{background-position:-30px -3090px}
+.flair-enchantress1{background-position:-30px -3090px}
 .flair-ulik{background-position:0 -3120px}
 .flair-kate{background-position:0 -3150px}
 .flair-ironheart{background-position:0 -3180px}
@@ -370,7 +370,7 @@
 .flair-cable{background-position:0 -4140px}
 .flair-cable1{background-position:-30px -4140px}
 .flair-cable2{background-position:-60px -4140px}
-.flair-cable2{background-position:-90px -4140px}
+.flair-cable3{background-position:-90px -4140px}
 .flair-apocalypse{background-position:0 -4200px}
 .flair-apocalypse1{background-position:-30px -4200px}
 .flair-heimdall{background-position:0 -4230px}
@@ -502,8 +502,8 @@
 .flair-richardrider{background-position: 0 -7380px}
 .flair-abomination{background-position: 0 -7410px}
 .flair-redshulk{background-position: 0 -7440px}
-.flair-thane{background-position: -30px -7440px}
-.flair-dazzler{background-position: -30px -7440px}
+.flair-thane{background-position: 0px -7470px}
+.flair-dazzler{background-position: 0px -7500px}
 
 
 
@@ -600,7 +600,7 @@
 .flair1-bolt {background-position:-1400px 0px}
 .flair1-bolt1 {background-position:-1400px -100px}
 .flair1-bolt2 {background-position:-1400px -200px}
-.flair1-bolt2 {background-position:-1400px -300px}
+.flair1-bolt3{background-position:-1400px -300px}
 .flair1-cat {background-position:-1500px 0px}
 .flair1-cat1 {background-position:-1500px -100px}
 .flair1-cat2 {background-position:-1500px -200px}
@@ -1026,7 +1026,7 @@
 .flair1-rescue {background-position:-18900px 0px}
 .flair1-bishop {background-position:-19000px 0px}
 .flair1-iceman {background-position:-19100px 0px}
-.flair1-iceman1 {background-position:-19100px 0px}
+.flair1-iceman1 {background-position:-19100px -100px}
 .flair1-jubilee {background-position:-19200px 0px}
 .flair1-moltenman {background-position:-19300px 0px}
 .flair1-hydroman {background-position:-19400px 0px}
