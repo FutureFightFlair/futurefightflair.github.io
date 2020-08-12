@@ -4,6 +4,7 @@ fr * {
 }
 html {
     overflow-y: scroll;
+	padding: env(safe-area-inset);
 }
 body {
     font-family: 'Exo', sans-serif;

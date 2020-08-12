@@ -9,6 +9,7 @@ html {
     min-height: 100%;
 	width: 100%;
     font-size: 12px;
+	padding: env(safe-area-inset);
 }
 @media only screen and (min-width: 480px) {
 #CombatList, #BlastList, #SpeedList, #UniversalList {
@@ -232,12 +233,11 @@ html {
 
 body {
     font-family: 'Exo', sans-serif;
-	padding: 0px 0px 20px 0px;
+	padding: 0px!important;
     height: 100%;
 	width: 100%!important;
-	min-width: 100%!important;
     font-size: 12px;
-	margin: 0px;
+	margin: 0px!important;
 	background: repeating-linear-gradient(#070C1E, #5561A2, #070C1E);
     background-attachment: fixed;
 
