@@ -237,8 +237,8 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0px!important";
-	  document.getElementById("mySidenav").style.maxWidth = "0px!important";
+  document.getElementById("mySidenav").style.width = "0";
+	  document.getElementById("mySidenav").style.minWidth = "0px";
 
 }
 </script>
@@ -254,17 +254,4 @@ function checkfunction() {
     filterSelection2('all');
   }
 }
-</script>
-<script>
-
-var a=document.getElementsByTagName("a");
-for(var i=0;i<a.length;i++)
-{
-    a[i].onclick=function()
-    {
-        window.location=this.getAttribute("href");
-        return false
-    }
-}
-
 </script>
