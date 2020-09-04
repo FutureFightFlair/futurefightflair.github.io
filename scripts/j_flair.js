@@ -52,7 +52,6 @@ flair.names = {
 
 
 
-
 "Abomination00 character abomination" : "Abomination [Modern] #Super Villain# #Villain# #Combat# #Male# #Human##Gamma Radiation# #Durability# #Potential#",
 "AbsorbingMan00 character absorbingman" : "Absorbing Man [Modern] #Super Villain# #Villain# #Combat# #Male# #Human# #Strong#",
 "AdamWarlock00 character adam" : "Adam Warlock [Modern] #Super Hero# #Hero# #Blast# #Male# #Creature# #Time Freezing Immunity# #Magic#",
@@ -468,8 +467,9 @@ flair.names = {
 "StarLord02 uniform star2" : "Star-Lord [Guardians of the Galaxy 2] #Super Hero# #Hero# #Blast# #Male# #Alien# #MCU# #Guardians# #Command# #Weapon Master# #Potential# #Tier3#",
 "StarLord03 uniform star3" : "Star-Lord [Marvel's Avengers: Infinity War] #Super Hero# #Hero# #Blast# #Male# #Alien# #MCU# #Avengers# #-# #Guardians# #Command# #Weapon Master# #Potential# #Tier3#",
 "StarLord04 uniform star4" : "Star-Lord [Grounded] #Super Hero# #Hero# #Blast# #Male# #Alien# #Guardians# #Command# #Weapon Master# #Potential# #Tier3#",
-"Storm00 character storm" : "Storm [Modern] #Super Hero# #Hero# #Blast# #Female# #Mutant# #X-Men# #Command# #Shock# #Support# #Potential#",
-"Storm01 uniform storm1" : "Storm [X-Men Red] #Super Hero# #Hero# #Blast# #Female# #Mutant# #X-Men# #Command# #Shock# #Support# #Potential#",
+"Storm00 character storm" : "Storm [Modern] #Super Hero# #Hero# #Blast# #Female# #Mutant# #X-Men# #Command# #Shock# #Support# #Potential# #Tier3#",
+"Storm01 uniform storm1" : "Storm [X-Men Red] #Super Hero# #Hero# #Blast# #Female# #Mutant# #X-Men# #Command# #Shock# #Support# #Potential# #Tier3#",
+"Storm02 uniform storm2" : "Storm [Inhumans vs X-Men] #Super Hero# #Hero# #Blast# #Female# #Mutant# #X-Men# #Command# #Shock# #Support# #Potential# #Tier3# #New#",
 "Stryfe00 character stryfe" : "Stryfe [Modern] #Super Villain# #Villain# #Blast# #Male# #Mutant# #Energy Projection# #Pure Evil# #Potential#",
 "SunBird00 character sunbird" : "Sun Bird [Modern] #Super Hero# #Hero# #Speed# #Male# #Human# #Warriors of the Sky# #Agility# #Flame# #Potential#",
 "Supergiant00 character supergiant" : "Supergiant [Infinity] #Super Villain# #Villain# #Universal# #Female# #Alien# #Black Order# #Mind Resist# #Mind#",
