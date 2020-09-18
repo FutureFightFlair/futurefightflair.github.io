@@ -180,7 +180,7 @@ flair.selectChoice = function (hero_id, key) {
 	flair.by_id[hero_id].hero_abilities = flair.by_id[hero_id].hero_abilities2.slice(0, -1);
 	document.getElementById('flair-selection-abilities').innerHTML = flair.by_id[hero_id].hero_abilities;
 	
-	flair.by_id[hero_id].hero_gender1 = flair.by_id[hero_id].hero_attributeop.replace(/.*?(\#(Male|Female|Genderless)*\#).*?/gi, "$1").replace(/#Male#/g, " Male").replace(/#Female#/g, " Female").replace(/#Genderless#/g, " Genderless");
+	flair.by_id[hero_id].hero_gender1 = flair.by_id[hero_id].hero_attributeop.replace(/.*?(\#(Male|Female|NeutralGender)*\#).*?/gi, "$1").replace(/#Male#/g, " Male").replace(/#Female#/g, " Female").replace(/#NeutralGender#/g, " Neutral");
 	flair.by_id[hero_id].hero_gender = flair.by_id[hero_id].hero_gender1.replace(/ *\#[^)]*\# */g, "");
 	document.getElementById('flair-selection-gender').innerHTML = flair.by_id[hero_id].hero_gender;
 	
