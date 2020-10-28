@@ -170,6 +170,7 @@
 .flair-venom{background-position:0 -1200px}
 .flair-venom1{background-position:-30px -1200px}
 .flair-venom2{background-position:-60px -1200px}
+.flair-venom3{background-position:-90px -1200px}
 .flair-vision{background-position:0 -1230px}
 .flair-vision1{background-position:-30px -1230px}
 .flair-vision2{background-position:-60px -1230px}
@@ -232,8 +233,10 @@
 .flair-silk1{background-position:-30px -1890px}
 .flair-gwen{background-position:0 -1920px}
 .flair-gwen1{background-position:-30px -1920px}
+.flair-gwen2{background-position:-60px -1920px}
 .flair-miles{background-position:0 -1950px}
 .flair-miles1{background-position:-30px -1950px}
+.flair-miles2{background-position:-60px -1950px}
 .flair-cho{background-position:0 -1980px}
 .flair-cho1{background-position:-30px -1980px}
 .flair-cho2{background-position:-60px -1980px}
@@ -515,6 +518,10 @@
 .flair-dazzler{background-position: 0px -7500px}
 .flair-morbius{background-position: 0px -7530px}
 .flair-sspidey{background-position: 0px -7560px}
+.flair-scream{background-position: 0px -7590px}
+.flair-spiderwoman{background-position: 0px -7620px}
+.flair-knull{background-position: 0px -7650px}
+
 
 
 
@@ -846,6 +853,7 @@
 .flair1-melindamay {background-position:-5300px -100px}
 .flair1-miles {background-position:-10500px 0px}
 .flair1-miles1 {background-position:-10500px -100px}
+.flair1-miles2 {background-position:-10500px -200px}
 .flair1-reed {background-position:-10600px 0px}
 .flair1-reed1 {background-position:-10600px -100px}
 .flair1-misty {background-position:-10700px 0px}
@@ -946,6 +954,7 @@
 .flair1-songbird {background-position:-14700px 0px}
 .flair1-gwen {background-position:-14800px 0px}
 .flair1-gwen1 {background-position:-14800px -100px}
+.flair1-gwen2 {background-position:-14800px -200px}
 .flair1-spidey {background-position:-14900px 0px}
 .flair1-spidey1 {background-position:-14900px -100px}
 .flair1-spidey2 {background-position:-14900px -200px}
@@ -993,6 +1002,7 @@
 .flair1-venom {background-position:-16400px 0px}
 .flair1-venom1 {background-position:-16400px -100px}
 .flair1-venom2 {background-position:-16400px -200px}
+.flair1-venom3 {background-position:-16400px -300px}
 .flair1-victorious {background-position:-16500px 0px}
 .flair1-vision {background-position:-16600px 0px}
 .flair1-vision1 {background-position:-16600px -100px}
@@ -1094,4 +1104,7 @@
 .flair1-dazzler{background-position: -22800px 0px}
 .flair1-morbius{background-position: -22900px 0px}
 .flair1-sspidey{background-position: -23000px 0px}
+.flair1-scream{background-position: -23100px 0px}
+.flair1-spiderwoman{background-position: -23200px 0px}
+.flair1-knull{background-position: -23300px 0px}
 
