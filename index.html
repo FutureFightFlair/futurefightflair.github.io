@@ -40,7 +40,7 @@
 <script type="text/javascript" src="scripts/j_scripts.js"></script>
 </head>
 
-<body onLoad="filterSelection('all');filterSelection1('all');filterSelection2('all');filterSelection3('all');filterSelection4('all');filterSelection5('all');filterSelection6('all');">
+<body onLoad="filterSelection('all');filterSelection1('all');filterSelection2('all');filterSelection3('all');filterSelection4('all');filterSelection5('all');filterSelection6('all');filterSelection7('all');">
 <noscript>
 JavaScript is required to run this page.
 </noscript>
@@ -87,7 +87,7 @@ JavaScript is required to run this page.
   <p> <i>Example:</i> <b>#Jean Grey#</b> </p>
   <p> <i>Attribute List:</i> </p>
   <ul>
-    <li> <i>Abilities: </i> Agent, Agility, Chaos Magic, Chill, Cold Blooded, Command, Cosmic Cube, Durability, Energy Projection, Fantastic Four, Fast Movement, Flame, Gamma Radiation, Healing, Heightened Senses, Leadership, Machine, Magic, Mind, Mind Resist, Phoenix Force, Poison, Power Cosmic, Pure Evil, Shock, Sinister Six, Spider-Sense, Strong, Symbiote, Time Freezing Immunity, Warriors of the Sky, Weapon Master</li>
+    <li> <i>Abilities: </i> Agent, Agility, Chaos Magic, Chill, Cold Blooded, Command, Cosmic Cube, Dark Avengers, Durability, Energy Projection, Fantastic Four, Fast Movement, Flame, Gamma Radiation, Healing, Heightened Senses, Leadership, Machine, Magic, Mind, Mind Resist, Phoenix Force, Poison, Power Cosmic, Pure Evil, Shock, Sinister Six, Spider-Sense, Strong, Symbiote, Time Freezing Immunity, Warriors of the Sky, Weapon Master</li>
     <li> <i>Gender: </i>Female, Male, NeutralGender</li>
     <li> <i>Allies: </i>Alien, Creature, Human, Inhuman, Mutant, Other</li>
     <li> <i>Side: </i>Super Hero, Neutral, Super Villain</li>
@@ -158,7 +158,7 @@ JavaScript is required to run this page.
 		
 
 		
-	<button id="AbilityButton" class="btn2" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#abilitywrapper', 'hide');n.addClass('#typewrapper, #genderwrapper, #sidewrapper, #allieswrapper, #showwrapper', 'hide');return false"><div class="ability allabilities flair2" title="All Abilities"></div></button>
+	<button id="AbilityButton" class="btn2" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#abilitywrapper', 'hide');n.addClass('#typewrapper, #genderwrapper, #sidewrapper, #allieswrapper, #showwrapper, #potentialwrapper', 'hide');return false"><div class="ability allabilities flair2" title="All Abilities"></div></button>
 					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
 <div id="abilitywrapper" class="abilitywrapper hide" style="background:#0e1320; overflow: auto;">
  <center>
@@ -174,6 +174,7 @@ JavaScript is required to run this page.
     <button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Command#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Command"><div class="ability command flair2" title="Command"></div></button>
     <button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Cosmic Cube#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Cosmic Cube"><div class="ability cosmiccube flair2" title="Cosmic Cube"></div></button>
     <button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Durability#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Durability"><div class="ability durability flair2" title="Durability"></div></button>
+    <button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Dark Avengers#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Dark Avengers"><div class="ability darkavengers flair2" title="Dark Avengers"></div></button>
     <button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Energy Projection#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Energy Projection"><div class="ability energyprojection flair2" title="Energy Projection"></div></button>
 	<button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Fantastic Four#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Fantastic Four"><div class="ability fantasticfour flair2" title="Fantastic Four"></div></button>
     <button class="btn1" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection('#Fast Movement#');n.toggleClass('#abilitywrapper', 'hide');return false" title="Fast Movement"><div class="ability fastmovement flair2" title="Fast Movement"></div></button>
@@ -202,7 +203,7 @@ JavaScript is required to run this page.
   </center>
 </div>
 </div>
-	<button class="btn4" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#typewrapper', 'hide');n.addClass('#abilitywrapper, #genderwrapper, #sidewrapper, #allieswrapper, #showwrapper', 'hide');return false"><div class="ability alltype flair2" title="Type"></div></button>
+	<button class="btn4" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#typewrapper', 'hide');n.addClass('#abilitywrapper, #genderwrapper, #sidewrapper, #allieswrapper, #showwrapper, #potentialwrapper', 'hide');return false"><div class="ability alltype flair2" title="Type"></div></button>
 					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
 <div id="typewrapper" class="typewrapper hide" style="background:#0e1320; overflow: auto;">
  <center>
@@ -219,7 +220,7 @@ JavaScript is required to run this page.
   </center>
 </div>
 </div>
-	<button class="btn6" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#genderwrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #sidewrapper, #allieswrapper, #showwrapper', 'hide');return false"><div class="ability allgender flair2" title="Gender"></div></button>
+	<button class="btn6" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#genderwrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #sidewrapper, #allieswrapper, #showwrapper, #potentialwrapper', 'hide');return false"><div class="ability allgender flair2" title="Gender"></div></button>
 					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
 <div id="genderwrapper" class="genderwrapper hide" style="background:#0e1320; overflow: auto;">
  <center>
@@ -235,7 +236,7 @@ JavaScript is required to run this page.
   </center>
 </div>
 </div>		
-	<button class="btn8" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#sidewrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #allieswrapper, #showwrapper', 'hide');return false"><div class="ability allside flair2" title="Side"></div></button>
+	<button class="btn8" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#sidewrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #allieswrapper, #showwrapper, #potentialwrapper', 'hide');return false"><div class="ability allside flair2" title="Side"></div></button>
 					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
 <div id="sidewrapper" class="sidewrapper hide" style="background:#0e1320; overflow: auto;">
  <center>
@@ -252,7 +253,7 @@ JavaScript is required to run this page.
   </center>
 </div>
 </div>			
-	<button class="btn10" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#allieswrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #sidewrapper, #showwrapper', 'hide');return false"><div class="ability allallies flair2" title="Allies"></div></button>
+	<button class="btn10" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#allieswrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #sidewrapper, #showwrapper, #potentialwrapper', 'hide');return false"><div class="ability allallies flair2" title="Allies"></div></button>
 					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
 <div id="allieswrapper" class="allieswrapper hide" style="background:#0e1320; overflow: auto;">
  <center>
@@ -270,7 +271,27 @@ JavaScript is required to run this page.
   </center>
 </div>
 </div>		
-	<button class="btn12" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#showwrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #sidewrapper, #allieswrapper', 'hide');return false"><div class="ability allshow flair2" title="Show"></div></button>
+		
+	<button class="btn14" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#potentialwrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #sidewrapper, #allieswrapper, #showwrapper', 'hide');return false"><div class="ability allpotential flair2" title="Potential"></div></button>
+					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
+<div id="potentialwrapper" class="potentialwrapper hide" style="background:#0e1320; overflow: auto;">
+ <center>
+
+	  <div id="filter-selection-name-potential" style="color:white; font-size: 10pt; padding-bottom: 10px;">Filter by Potential</div>
+	 		<div id="potentialwrapper" class="ButtonClass hide">
+	<button class="btn13 active" id="all" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection7('all');n.toggleClass('#potentialwrapper', 'hide');return false" title="All"><div class="ability allpotential flair2" title="All"></div></button>
+	    <button class="btn13" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection7('#Tier2#');n.toggleClass('#potentialwrapper', 'hide');return false" title="Tier-2"><div class="ability tier2 flair2" title="Tier-2"></div></button>
+    <button class="btn13" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection7('#Realized#');n.toggleClass('#potentialwrapper', 'hide');return false" title="Potential Realized"><div class="ability realized flair2" title="Potential Realized"></div></button>
+    <button class="btn13" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection7('#Transcended#');n.toggleClass('#potentialwrapper', 'hide');return false"title="Potential Transcended"><div class="ability transcended flair2" title="Potential Transcended"></div></button>
+    <button class="btn13" style="margin-bottom: 5px; padding:1px; line-height: 9px;" onclick="filterSelection7('#Tier3#');n.toggleClass('#potentialwrapper', 'hide');return false"title="Tier-3"><div class="ability tier3 flair2" title="Tier-3"></div></button>
+
+</div>
+  </center>
+</div>
+</div>				
+		
+		
+	<button class="btn12" style="margin-right: 3px; padding:3px;" onclick="n.toggleClass('#showwrapper', 'hide');n.addClass('#abilitywrapper, #typewrapper, #genderwrapper, #sidewrapper, #allieswrapper, #potentialwrapper', 'hide');return false"><div class="ability allshow flair2" title="Show"></div></button>
 					<div class="centerinfo" style="z-index: 1; position: absolute; right:17px; padding-left: 17px; margin-top: 23px; max-width: 325px; opacity: .96;">
 <div id="showwrapper" class="showwrapper hide" style="background:#0e1320; overflow: auto;">
  <center>
@@ -499,6 +520,35 @@ document.getElementById('filter-selection-name-show').innerHTML = "Showing " + c
       $(".btn12").text($(this).text());
       $(".btn12").val($(this).text());
       $(".btn12").html($(this).html());
+   });	
+</script>
+
+<script>		
+// Get the container element
+var btnContainer = document.getElementById("potentialwrapper");
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn13");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("btn13 active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+var current = document.getElementsByClassName("btn13 active");
+document.getElementById('filter-selection-name-potential').innerHTML = "Filtered by " + current[0].title;
+  });
+}	
+	
+		$(".potentialwrapper").on('click', 'button', function(){
+      $(".btn14").text($(this).text());
+      $(".btn14").val($(this).text());
+      $(".btn14").html($(this).html());
    });	
 </script>
 

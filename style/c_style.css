@@ -269,6 +269,30 @@ a {
 .showwrapper.no-pad, .showwrapper.no-pad:not(.no-style) {
     padding: 0;
 }
+
+.potentialwrapper {
+    width: 100%;
+    max-width: 888px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.potentialwrapper:not(.no-style) {
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 0 0 1px #1a213e, inset 0 0 0 1px #1a213e;
+    background: #0e1320;
+    color: white;
+}
+.potentialwrapper.no-margin {
+    margin-top: 0;
+}
+.potentialwrapper.no-pad, .potentialwrapper.no-pad:not(.no-style) {
+    padding: 0;
+}
+
 .wrapper {
     width: 100%;
     max-width: 888px;
@@ -396,6 +420,10 @@ label input[type=checkbox] + span {
 #showwrapper.hide + .wrapper {
     margin-top: 0;
 }
+#potentialwrapper.hide + .wrapper {
+    margin-top: 0;
+}
+
 /* BUTTON
 --------------------------------------------------------------------------------*/
 button, input[type=submit] {
@@ -481,7 +509,7 @@ button:hover, input[type=submit]:hover {
 .flair {
     background-color: transparent
 }
-.show.type.side.charuni.gender.new.allies {
+.show.type.side.charuni.gender.new.allies.potential {
     display: -webkit-inline-flex;
     display: inline-flex;
     -webkit-align-items: center;
@@ -533,11 +561,11 @@ button:hover, input[type=submit]:hover {
     line-height: 19px;
     cursor: pointer;
 }
-.btn1:hover, .btn3:hover, .btn5:hover, .btn7:hover, .btn9:hover, .btn11:hover  {
+.btn1:hover, .btn3:hover, .btn5:hover, .btn7:hover, .btn9:hover, .btn11:hover, .btn13:hover  {
     background: #8456b1
 }
 
-.btn2, .btn4, .btn6, .btn8, .btn10, .btn12{
+.btn2, .btn4, .btn6, .btn8, .btn10, .btn12, .btn14{
     display: inline-block;
     margin: 0;
     padding: 2px 8px 2px;
@@ -555,7 +583,7 @@ button:hover, input[type=submit]:hover {
     outline: 0;
     cursor: pointer;
 }
-.btn2:hover, .btn4:hover, .btn6:hover, .btn8:hover, .btn10:hover, .btn12:hover {
+.btn2:hover, .btn4:hover, .btn6:hover, .btn8:hover, .btn10:hover, .btn12:hover, .btn14:hover {
     background: #070708;
     border: 1px solid #f1d455;
 }

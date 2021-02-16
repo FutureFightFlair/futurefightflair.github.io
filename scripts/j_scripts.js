@@ -175,7 +175,7 @@ flair.selectChoice = function (hero_id, key) {
 	
 	flair.by_id[hero_id].hero_attributeop = flair.by_id[hero_id].hero_name.replace(/.*?(\#[^)]*\#).*?/g, "$1");
 	
-	flair.by_id[hero_id].hero_abilities1 = flair.by_id[hero_id].hero_attributeop.replace(/.*?(\#(Agent|Agility|Chaos Magic|Chill|Cold Blooded|Command|Cosmic Cube|Durability|Electrokinetic|Energy Projection|Fantastic Four|Fast Movement|Flame|Gamma Radiation|Healing|Heightened Senses|Leadership|Machine|Magic|Mind|Mind Resist|Phoenix Force|Poison|Power Cosmic|Pure Evil|Shock|Sinister Six|Spider-Sense|Strong|Symbiote|Time Freezing Immunity|Warriors of the Sky|Weapon Master)*\#).*?/gi, "$1").replace(/#Agent#/g, " Agent,").replace(/#Agility#/g, " Agility,").replace(/#Chaos Magic#/g, " Chaos Magic,").replace(/#Chill#/g, " Chill,").replace(/#Cold Blooded#/g, " Cold Blooded,").replace(/#Command#/g, " Command,").replace(/#Cosmic Cube#/g, " Cosmic Cube,").replace(/#Durability#/g, " Durability,").replace(/#Electrokinetic#/g, " Electrokinetic,").replace(/#Energy Projection#/g, " Energy Projection,").replace(/#Fantastic Four#/g, " Fantastic Four,").replace(/#Fast Movement#/g, " Fast Movement,").replace(/#Flame#/g, " Flame,").replace(/#Gamma Radiation#/g, " Gamma Radiation,").replace(/#Healing#/g, " Healing,").replace(/#Heightened Senses#/g, " Heightened Senses,").replace(/#Leadership#/g, " Leadership,").replace(/#Machine#/g, " Machine,").replace(/#Magic#/g, " Magic,").replace(/#Mind#/g, " Mind,").replace(/#Mind Resist#/g, " Mind Resist,").replace(/#Phoenix Force#/g, " Phoenix Force,").replace(/#Poison#/g, " Poison,").replace(/#Power Cosmic#/g, " Power Cosmic,").replace(/#Pure Evil#/g, " Pure Evil,").replace(/#Shock#/g, " Shock,").replace(/#Sinister Six#/g, " Sinister Six,").replace(/#Spider-Sense#/g, " Spider-Sense,").replace(/#Strong#/g, " Strong,").replace(/#Symbiote#/g, " Symbiote,").replace(/#Time Freezing Immunity#/g, " Time Freezing Immunity,").replace(/#Warriors of the Sky#/g, " Warriors of the Sky,").replace(/#Weapon Master#/g, " Weapon Master,");
+	flair.by_id[hero_id].hero_abilities1 = flair.by_id[hero_id].hero_attributeop.replace(/.*?(\#(Agent|Agility|Chaos Magic|Chill|Cold Blooded|Command|Cosmic Cube|Dark Avengers|Durability|Electrokinetic|Energy Projection|Fantastic Four|Fast Movement|Flame|Gamma Radiation|Healing|Heightened Senses|Leadership|Machine|Magic|Mind|Mind Resist|Phoenix Force|Poison|Power Cosmic|Pure Evil|Shock|Sinister Six|Spider-Sense|Strong|Symbiote|Time Freezing Immunity|Warriors of the Sky|Weapons Master)*\#).*?/gi, "$1").replace(/#Agent#/g, " Agent,").replace(/#Agility#/g, " Agility,").replace(/#Chaos Magic#/g, " Chaos Magic,").replace(/#Chill#/g, " Chill,").replace(/#Cold Blooded#/g, " Cold Blooded,").replace(/#Command#/g, " Command,").replace(/#Cosmic Cube#/g, " Cosmic Cube,").replace(/#Dark Avengers#/g, " Dark Avengers,").replace(/#Durability#/g, " Durability,").replace(/#Electrokinetic#/g, " Electrokinetic,").replace(/#Energy Projection#/g, " Energy Projection,").replace(/#Fantastic Four#/g, " Fantastic Four,").replace(/#Fast Movement#/g, " Fast Movement,").replace(/#Flame#/g, " Flame,").replace(/#Gamma Radiation#/g, " Gamma Radiation,").replace(/#Healing#/g, " Healing,").replace(/#Heightened Senses#/g, " Heightened Senses,").replace(/#Leadership#/g, " Leadership,").replace(/#Machine#/g, " Machine,").replace(/#Magic#/g, " Magic,").replace(/#Mind#/g, " Mind,").replace(/#Mind Resist#/g, " Mind Resist,").replace(/#Phoenix Force#/g, " Phoenix Force,").replace(/#Poison#/g, " Poison,").replace(/#Power Cosmic#/g, " Power Cosmic,").replace(/#Pure Evil#/g, " Pure Evil,").replace(/#Shock#/g, " Shock,").replace(/#Sinister Six#/g, " Sinister Six,").replace(/#Spider-Sense#/g, " Spider-Sense,").replace(/#Strong#/g, " Strong,").replace(/#Symbiote#/g, " Symbiote,").replace(/#Time Freezing Immunity#/g, " Time Freezing Immunity,").replace(/#Warriors of the Sky#/g, " Warriors of the Sky,").replace(/#Weapons Master#/g, " Weapons Master,");
 	flair.by_id[hero_id].hero_abilities2 = flair.by_id[hero_id].hero_abilities1.replace(/ *\#[^)]*\# */g, "");
 	flair.by_id[hero_id].hero_abilities = flair.by_id[hero_id].hero_abilities2.slice(0, -1);
 	document.getElementById('flair-selection-abilities').innerHTML = flair.by_id[hero_id].hero_abilities;
@@ -200,7 +200,7 @@ flair.selectChoice = function (hero_id, key) {
 	flair.by_id[hero_id].hero_type = flair.by_id[hero_id].hero_type1.replace(/ *\#[^)]*\# */g, "");
 	document.getElementById('flair-selection-type').innerHTML = flair.by_id[hero_id].hero_type;
 	
-	flair.by_id[hero_id].hero_utilities1 = flair.by_id[hero_id].hero_attributeop.replace(/.*?(\#(MCU|NPC|New|Potential|Tier3|Support)*\#).*?/g, "$1").replace(/#MCU#/g, " MCU,").replace(/#New#/g, " New,").replace(/#NPC#/g, " NPC,").replace(/#Potential#/g, " Potential,").replace(/#Tier3#/g, " Tier 3,").replace(/#Support#/g, " Support,");
+	flair.by_id[hero_id].hero_utilities1 = flair.by_id[hero_id].hero_attributeop.replace(/.*?(\#(MCU|NPC|New|Realized|Tier3|Transcended|Support)*\#).*?/g, "$1").replace(/#MCU#/g, " MCU,").replace(/#New#/g, " New,").replace(/#NPC#/g, " NPC,").replace(/#Realized#/g, " Potential Realized,").replace(/#Tier3#/g, " Tier 3,").replace(/#Transcended#/g, "Potential Transcended,").replace(/#Support#/g, " Support,");
 	flair.by_id[hero_id].hero_utilities2 = flair.by_id[hero_id].hero_utilities1.replace(/ *\#[^)]*\# */g, "");
 	flair.by_id[hero_id].hero_utilities = flair.by_id[hero_id].hero_utilities2.slice(0, -1);
 	document.getElementById('flair-selection-utilities').innerHTML = flair.by_id[hero_id].hero_utilities;
@@ -507,6 +507,17 @@ filterSelection6("all")
   }
 }
 
+filterSelection7("all")
+		  function filterSelection7(c) {
+  var x, i;
+  x = document.getElementsByClassName("flair flair-choice");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "potential");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "potential");
+  }
+}
+
 
 filterSelection("all")
   function filterSelection(c) {
@@ -516,6 +527,16 @@ filterSelection("all")
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function filterSelection7(c) {
+  var x, i;
+  x = document.getElementsByClassName("flair flair-choice");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "potential");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "potential");
   }
 }
 
