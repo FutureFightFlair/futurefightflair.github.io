@@ -1,0 +1,107 @@
+html {
+	overflow-y: scroll;
+	height: 100%;
+	width: 100%;
+	color: white;}
+body {
+	font-family: 'Exo', sans-serif;
+	padding: 0px!important;
+	height: 100%;
+	width: 100%!important;
+	font-size: 12px;
+	margin: 0px!important;
+	background:#011431;
+	background-attachment: fixed;}
+
+
+#tiers{
+	margin-top: 1em;
+	width: 90%;
+	max-width: 100em;
+	min-width: 30em;
+	position: relative;
+	border:.1em solid #ffffff;
+	border-radius: 1em;
+	background-image: linear-gradient(#021e4b, #002a5f);}
+
+#tierflair{
+	top:-.09em;
+	position: absolute;
+	right: 1em;
+	width: 8%;
+	height: 100%;
+	background-image: url('../images/tierflair.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+#meta, #supportmeta, #atier, #btier, #support, #expansion1, #expansion2 {
+	margin-left: 2%;
+	position: relative;
+	z-index:1;}
+
+#legend{
+	margin-top:1em;
+	width:90%;
+	max-width:70em;
+	min-width:30em;
+	position: relative;}
+
+#info{
+	margin-top:1em;
+	width:80%;
+	max-width:30em;
+	min-width:15em;
+	position: relative;}
+
+.combat, .blast, .speed, .universal {
+	float: left;
+	width: 20%;
+	padding: .5em;}
+
+
+.combat img, .blast img, .speed img, .universal img{
+	width:14%;}
+
+hr {
+  	border:none;
+ 	width: 100%;
+	height: .1em;
+	margin-top: 0;
+	box-shadow: 0em .1em .0em -.0em #ffffff;}
+
+#flair-selection-name{
+	display:inline-block;
+	font-style: italic;
+	color:white;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-right:1em;}
+
+#flair-selection-uniname{
+	display:inline-block;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-style: italic;
+	color:lightgrey;
+	font-size: 8px;
+	padding-right:1em;}
+
+#flair-selection-attribute, #flair-selection-bar{
+	display:inline-block;}
+
+#flair-selection-attribute img, #flair-selection-bar img{
+	height: 1.5em;
+	top:.3em;
+	position: relative;}
+
+#namearea{
+	background-image: url('../images/titleinfo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center; 
+	height: 2.2em;
+	width: 90%;
+	margin-top: 1em;}
