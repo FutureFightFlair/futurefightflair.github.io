@@ -138,7 +138,7 @@ hr {
 	color:white;
 	font-weight:bold;
 	text-transform: uppercase;
-	font-size: 8pt!important;
+	font-size: 7pt!important;
 	line-height:3em;
 	padding-right:1em;}
 
@@ -148,7 +148,7 @@ hr {
 	text-transform: uppercase;
 	font-style: italic;
 	color:lightgrey;
-	font-size: 7pt!important;
+	font-size: 6pt!important;
 	line-height:3em;
 	padding-right:1em;}
 
@@ -158,13 +158,13 @@ hr {
 	color: lightblue;
 	font-weight:bold;
 	text-transform: uppercase;
-	font-size: 7pt!important;}
+	font-size: 6pt!important;}
 
 #flair-selection-bar{
 	display:inline-block;}
 
 #flair-selection-attribute img, #flair-selection-bar img{
-	height: 1.5em!important;
-	top:.35em!important;
+	height: 1.4em!important;
+	top:.4em!important;
 	position: relative;}
 }
