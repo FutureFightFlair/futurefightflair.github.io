@@ -64,52 +64,6 @@ body {
 .combat img, .blast img, .speed img, .universal img{
 	width:14%;}
 
-@media only screen and (max-width: 600px) {
-.combat, .blast, .speed, .universal {
-	float: left;
-	width: 19%;
-	padding: .4em;}
-
-.combat img, .blast img, .speed img, .universal img{
-	width:11%;}
-
-#flair-selection-name{
-	display:inline-block;
-	font-style: italic;
-	color:white;
-	font-weight:bold;
-	text-transform: uppercase;
-	font-size: 9pt;
-	line-height:3em;
-	padding-right:1em;}
-
-#flair-selection-uniname{
-	display:inline-block;
-	font-weight:bold;
-	text-transform: uppercase;
-	font-style: italic;
-	color:lightgrey;
-	font-size: 7pt;
-	line-height:3em;
-	padding-right:1em;}
-
-#flair-selection-attribute{
-	display:inline-block;
-	font-style: italic;
-	color: lightblue;
-	font-weight:bold;
-	text-transform: uppercase;
-	font-size: 7pt;}
-
-#flair-selection-bar{
-	display:inline-block;}
-
-#flair-selection-attribute img, #flair-selection-bar img{
-	height: 1.5em!important;
-	top:.35em!important;
-	position: relative;}
-}
-
 hr {
   	border:none;
  	width: 100%;
@@ -167,3 +121,50 @@ hr {
 	top: 1em;
 	position: fixed;
 	z-index:2;}
+
+@media only screen and (max-width: 600px) {
+.combat, .blast, .speed, .universal {
+	float: left;
+	width: 19%;
+	padding: 0.1em 0.3em!important;}
+
+.combat img, .blast img, .speed img, .universal img{
+	width:11%;
+	padding: 0em;}
+
+#flair-selection-name{
+	display:inline-block;
+	font-style: italic;
+	color:white;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 8pt!important;
+	line-height:3em;
+	padding-right:1em;}
+
+#flair-selection-uniname{
+	display:inline-block;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-style: italic;
+	color:lightgrey;
+	font-size: 7pt!important;
+	line-height:3em;
+	padding-right:1em;}
+
+#flair-selection-attribute{
+	display:inline-block;
+	font-style: italic;
+	color: lightblue;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 7pt!important;}
+
+#flair-selection-bar{
+	display:inline-block;}
+
+#flair-selection-attribute img, #flair-selection-bar img{
+	height: 1.5em!important;
+	top:.35em!important;
+	position: relative;}
+}
