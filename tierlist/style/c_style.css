@@ -18,7 +18,7 @@ body {
 	margin-top: 3em;
 	width: 90%;
 	max-width: 100em;
-	min-width: 30em;
+	min-width: 40em;
 	position: relative;
 	border:.1em solid #ffffff;
 	border-radius: 1em;
@@ -45,14 +45,14 @@ body {
 	margin-top:1em;
 	width:90%;
 	max-width:70em;
-	min-width:30em;
+	min-width:40em;
 	position: relative;}
 
 #info{
 	margin-top:1em;
 	width:80%;
 	max-width:30em;
-	min-width:15em;
+	min-width:20em;
 	position: relative;}
 
 .combat, .blast, .speed, .universal {
@@ -94,7 +94,7 @@ hr {
 
 #flair-selection-attribute img, #flair-selection-bar img{
 	height: 1.3em;
-	top:.4em;
+	top:.2em;
 	position: relative;}
 #topbar{
 	top:1em;
@@ -106,8 +106,9 @@ hr {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center; 
-	height: 2.2em;
+	height: auto;
 	width: 90%;
+	min-width: 40em;
 	top: 1em;
 	position: fixed;
 	z-index:2;}
