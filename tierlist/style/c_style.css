@@ -18,7 +18,7 @@ body {
 	margin-top: 3em;
 	width: 90%;
 	max-width: 100em;
-	min-width: 40em;
+	min-width: 30em;
 	position: relative;
 	border:.1em solid #ffffff;
 	border-radius: 1em;
@@ -45,14 +45,14 @@ body {
 	margin-top:1em;
 	width:90%;
 	max-width:70em;
-	min-width:40em;
+	min-width:30em;
 	position: relative;}
 
 #info{
 	margin-top:1em;
 	width:80%;
 	max-width:30em;
-	min-width:20em;
+	min-width:15em;
 	position: relative;}
 
 .combat, .blast, .speed, .universal {
@@ -108,7 +108,7 @@ hr {
 	background-position: center; 
 	height: auto;
 	width: 90%;
-	min-width: 40em;
+	min-width: 30em;
 	top: 1em;
 	position: fixed;
 	z-index:2;}
