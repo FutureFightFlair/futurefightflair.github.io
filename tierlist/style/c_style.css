@@ -15,7 +15,7 @@ body {
 
 
 #tiers{
-	margin-top: 3em;
+	margin-top: 4em;
 	width: 90%;
 	max-width: 100em;
 	min-width: 30em;
@@ -65,8 +65,49 @@ body {
 	width:14%;}
 
 @media only screen and (max-width: 600px) {
+.combat, .blast, .speed, .universal {
+	float: left;
+	width: 19%;
+	padding: .4em;}
+
 .combat img, .blast img, .speed img, .universal img{
-	width:12%;}
+	width:11%;}
+
+#flair-selection-name{
+	display:inline-block;
+	font-style: italic;
+	color:white;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 9pt;
+	line-height:3em;
+	padding-right:1em;}
+
+#flair-selection-uniname{
+	display:inline-block;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-style: italic;
+	color:lightgrey;
+	font-size: 7pt;
+	line-height:3em;
+	padding-right:1em;}
+
+#flair-selection-attribute{
+	display:inline-block;
+	font-style: italic;
+	color: lightblue;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 7pt;}
+
+#flair-selection-bar{
+	display:inline-block;}
+
+#flair-selection-attribute img, #flair-selection-bar img{
+	height: 1.5em!important;
+	top:.35em!important;
+	position: relative;}
 }
 
 hr {
@@ -82,7 +123,8 @@ hr {
 	color:white;
 	font-weight:bold;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 10pt;
+	line-height:2.5em;
 	padding-right:1em;}
 
 #flair-selection-uniname{
@@ -91,8 +133,7 @@ hr {
 	text-transform: uppercase;
 	font-style: italic;
 	color:lightgrey;
-	font-size: 8px;
-	line-height:2em;
+	font-size: 8pt;
 	padding-right:1em;}
 
 #flair-selection-attribute{
@@ -101,14 +142,14 @@ hr {
 	color: lightblue;
 	font-weight:bold;
 	text-transform: uppercase;
-	font-size: 8px;}
+	font-size: 8pt;}
 
 #flair-selection-bar{
 	display:inline-block;}
 
 #flair-selection-attribute img, #flair-selection-bar img{
-	height: 1.2em;
-	top:.2em;
+	height: 2em;
+	top:.5em;
 	position: relative;}
 
 #topbar{
