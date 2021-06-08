@@ -15,7 +15,7 @@ body {
 
 
 #tiers{
-	margin-top: 1em;
+	margin-top: 3em;
 	width: 90%;
 	max-width: 100em;
 	min-width: 30em;
@@ -93,9 +93,13 @@ hr {
 	display:inline-block;}
 
 #flair-selection-attribute img, #flair-selection-bar img{
-	height: 1.5em;
-	top:.3em;
+	height: 1.3em;
+	top:.4em;
 	position: relative;}
+#topbar{
+	top:1em;
+	width: 90%;
+	min-height: 1em}
 
 #namearea{
 	background-image: url('../images/titleinfo.png');
@@ -104,4 +108,6 @@ hr {
 	background-position: center; 
 	height: 2.2em;
 	width: 90%;
-	margin-top: 1em;}
+	top: 1em;
+	position: fixed;
+	z-index:2;}
