@@ -87,6 +87,7 @@ hr {
 	font-style: italic;
 	color:lightgrey;
 	font-size: 8px;
+	line-height:2em;
 	padding-right:1em;}
 
 #flair-selection-attribute{
@@ -101,7 +102,7 @@ hr {
 	display:inline-block;}
 
 #flair-selection-attribute img, #flair-selection-bar img{
-	height: 1.3em;
+	height: 1.2em;
 	top:.2em;
 	position: relative;}
 
