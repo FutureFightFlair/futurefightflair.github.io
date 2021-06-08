@@ -64,6 +64,11 @@ body {
 .combat img, .blast img, .speed img, .universal img{
 	width:14%;}
 
+@media only screen and (max-width: 600px) {
+.combat img, .blast img, .speed img, .universal img{
+	width:12%;}
+}
+
 hr {
   	border:none;
  	width: 100%;
