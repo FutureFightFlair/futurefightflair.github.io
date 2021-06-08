@@ -39,7 +39,9 @@ body {
 #meta, #supportmeta, #atier, #btier, #support, #expansion1, #expansion2 {
 	margin-left: 2%;
 	position: relative;
-	z-index:1;}
+	z-index:1;
+	display: flex;
+	align-items: center; }
 
 #legend{
 	margin-top:1em;
@@ -122,6 +124,10 @@ hr {
 	position: fixed;
 	z-index:2;}
 
+#warning {
+    display: none;
+  }
+
 @media only screen and (max-width: 600px) {
 .combat, .blast, .speed, .universal {
 	float: left;
@@ -168,3 +174,9 @@ hr {
 	top:.4em!important;
 	position: relative;}
 }
+
+@media screen and (orientation: portrait) {
+#warning {
+	padding: 1em;
+	display: block;
+  }
