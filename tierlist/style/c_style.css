@@ -89,13 +89,22 @@ hr {
 	font-size: 8px;
 	padding-right:1em;}
 
-#flair-selection-attribute, #flair-selection-bar{
+#flair-selection-attribute{
+	display:inline-block;
+	font-style: italic;
+	color: lightblue;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 8px;}
+
+#flair-selection-bar{
 	display:inline-block;}
 
 #flair-selection-attribute img, #flair-selection-bar img{
 	height: 1.3em;
 	top:.2em;
 	position: relative;}
+
 #topbar{
 	top:1em;
 	width: 90%;
@@ -108,7 +117,6 @@ hr {
 	background-position: center; 
 	height: auto;
 	width: 90%;
-	min-width: 30em;
 	top: 1em;
 	position: fixed;
 	z-index:2;}
