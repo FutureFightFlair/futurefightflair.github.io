@@ -31,7 +31,7 @@ body {
 	position: relative;
 	border:.1em solid #ffffff;
 	border-radius: 1em;
-	background-image: linear-gradient(#021e4b, #002a5f);}
+	background-image: linear-gradient(135deg, #021e4b, #002a5f);}
 
 #tierflair{
 	top:-.09em;
@@ -61,7 +61,7 @@ body {
 
 #info{
 	margin-top:1em;
-	width:80%;
+	width:90%;
 	max-width:30em;
 	min-width:15em;
 	position: relative;}
@@ -73,14 +73,15 @@ body {
 
 
 .combat img, .blast img, .speed img, .universal img{
-	width:14%;}
+	width:14%;
+	padding: 0em!important}
 
 hr {
   	border:none;
  	width: 100%;
 	height: .1em;
-	margin-top: 0;
-	box-shadow: 0em .1em .0em -.0em #ffffff;}
+	margin-top: 0em;
+	box-shadow: 0em .1em .0em .0em #ffffff;}
 
 #flair-selection-name{
 	display:inline-block;
@@ -90,7 +91,7 @@ hr {
 	text-transform: uppercase;
 	font-size: 10pt;
 	line-height:2.5em;
-	padding-right:1em;}
+	padding-right:.5em;}
 
 #flair-selection-uniname{
 	display:inline-block;
@@ -99,7 +100,7 @@ hr {
 	font-style: italic;
 	color:lightgrey;
 	font-size: 8pt;
-	padding-right:1em;}
+	padding-right:.5em;}
 
 #flair-selection-attribute{
 	display:inline-block;
@@ -141,22 +142,21 @@ hr {
 .combat, .blast, .speed, .universal {
 	float: left;
 	width: 20%;
-	padding: 0.1em 0.3em!important;}
+	padding: 0.1em;}
 
 .combat img, .blast img, .speed img, .universal img{
-	width:12%;
-	padding: 0em;}
+	width:12%;}
 }
 
 @media only screen and (max-width: 600px) {
 .combat, .blast, .speed, .universal {
 	float: left;
 	width: 19%;
-	padding: 0.1em 0.3em!important;}
+	padding: .1em;}
 
 .combat img, .blast img, .speed img, .universal img{
 	width:11%;
-	padding: 0em;}
+	padding: 0em!important;}
 
 #flair-selection-name{
 	display:inline-block;
@@ -166,7 +166,7 @@ hr {
 	text-transform: uppercase;
 	font-size: 7pt!important;
 	line-height:3em;
-	padding-right:1em;}
+	padding-right:.3em;}
 
 #flair-selection-uniname{
 	display:inline-block;
@@ -176,7 +176,7 @@ hr {
 	color:lightgrey;
 	font-size: 6pt!important;
 	line-height:3em;
-	padding-right:1em;}
+	padding-right:.3em;}
 
 #flair-selection-attribute{
 	display:inline-block;
