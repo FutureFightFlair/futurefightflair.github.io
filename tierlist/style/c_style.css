@@ -14,12 +14,12 @@ body {
 	background-attachment: fixed;}
 
 .flair-choice { 
-	border: .1em;
+	border: .1px;
 	border-image:linear-gradient(135deg, #003f90, #011f47) 2;
 }
 
 .selected { 
-	border: .1em solid;
+	border: .1px;
 	border-image:linear-gradient(135deg, #91151a, #011f47) 2;
 }
 
