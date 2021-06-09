@@ -417,3 +417,11 @@
 	</center>
 </body>
 </html>
+<script>
+const divs = document.getElementsByClassName("flair-choice"); 
+	function clickHandler(e) { 	
+	const old = document.getElementsByClassName("flair-choice");  
+		for (i = 0; i < old.length; i++) {
+		onsole.log(old[i].classList.remove("selected"));}  
+	e.classList.add("selected");}
+</script>
